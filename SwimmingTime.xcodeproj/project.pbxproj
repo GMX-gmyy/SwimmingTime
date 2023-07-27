@@ -7,23 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3EC4F552C0CCC2B3FCC6EBAD /* Pods_SwimmingTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACF7349B2D03F0D026C5EB40 /* Pods_SwimmingTime.framework */; };
+		6438859C2A72BC0700D4E759 /* STBaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6438859B2A72BC0700D4E759 /* STBaseModel.swift */; };
+		6438859E2A72BC6600D4E759 /* STRecordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6438859D2A72BC6600D4E759 /* STRecordModel.swift */; };
+		643885A02A72BDCC00D4E759 /* STRecordManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6438859F2A72BDCC00D4E759 /* STRecordManager.swift */; };
+		643885A22A72CF1C00D4E759 /* STPrivacyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643885A12A72CF1C00D4E759 /* STPrivacyViewController.swift */; };
 		64DE6AF12A72178E00BFFFC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DE6AF02A72178E00BFFFC8 /* AppDelegate.swift */; };
 		64DE6AF32A72178E00BFFFC8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DE6AF22A72178E00BFFFC8 /* SceneDelegate.swift */; };
-		64DE6AF52A72178E00BFFFC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DE6AF42A72178E00BFFFC8 /* ViewController.swift */; };
 		64DE6AF82A72178E00BFFFC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64DE6AF62A72178E00BFFFC8 /* Main.storyboard */; };
 		64DE6AFA2A72178F00BFFFC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64DE6AF92A72178F00BFFFC8 /* Assets.xcassets */; };
 		64DE6AFD2A72178F00BFFFC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64DE6AFB2A72178F00BFFFC8 /* LaunchScreen.storyboard */; };
+		64DE6B0A2A721F4F00BFFFC8 /* STBaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DE6B092A721F4F00BFFFC8 /* STBaseNavigationController.swift */; };
+		64DE6B0C2A72205600BFFFC8 /* STBaseTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DE6B0B2A72205600BFFFC8 /* STBaseTabbarController.swift */; };
+		64DE6B0E2A7220BA00BFFFC8 /* STHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DE6B0D2A7220BA00BFFFC8 /* STHomeViewController.swift */; };
+		64DE6B102A7220F400BFFFC8 /* STRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DE6B0F2A7220F400BFFFC8 /* STRecordViewController.swift */; };
+		64DE6B122A72225800BFFFC8 /* STCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DE6B112A72225800BFFFC8 /* STCommon.swift */; };
+		64DE6B142A7222D300BFFFC8 /* STToolsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DE6B132A7222D300BFFFC8 /* STToolsManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1630A14F719FAE96F005A48D /* Pods-SwimmingTime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwimmingTime.debug.xcconfig"; path = "Target Support Files/Pods-SwimmingTime/Pods-SwimmingTime.debug.xcconfig"; sourceTree = "<group>"; };
+		4ACBFA53B7C1A3424B6757F6 /* Pods-SwimmingTime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwimmingTime.release.xcconfig"; path = "Target Support Files/Pods-SwimmingTime/Pods-SwimmingTime.release.xcconfig"; sourceTree = "<group>"; };
+		6438859B2A72BC0700D4E759 /* STBaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STBaseModel.swift; sourceTree = "<group>"; };
+		6438859D2A72BC6600D4E759 /* STRecordModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STRecordModel.swift; sourceTree = "<group>"; };
+		6438859F2A72BDCC00D4E759 /* STRecordManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STRecordManager.swift; sourceTree = "<group>"; };
+		643885A12A72CF1C00D4E759 /* STPrivacyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STPrivacyViewController.swift; sourceTree = "<group>"; };
 		64DE6AED2A72178E00BFFFC8 /* SwimmingTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwimmingTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64DE6AF02A72178E00BFFFC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		64DE6AF22A72178E00BFFFC8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		64DE6AF42A72178E00BFFFC8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		64DE6AF72A72178E00BFFFC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		64DE6AF92A72178F00BFFFC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64DE6AFC2A72178F00BFFFC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		64DE6AFE2A72178F00BFFFC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64DE6B092A721F4F00BFFFC8 /* STBaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STBaseNavigationController.swift; sourceTree = "<group>"; };
+		64DE6B0B2A72205600BFFFC8 /* STBaseTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STBaseTabbarController.swift; sourceTree = "<group>"; };
+		64DE6B0D2A7220BA00BFFFC8 /* STHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STHomeViewController.swift; sourceTree = "<group>"; };
+		64DE6B0F2A7220F400BFFFC8 /* STRecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STRecordViewController.swift; sourceTree = "<group>"; };
+		64DE6B112A72225800BFFFC8 /* STCommon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STCommon.swift; sourceTree = "<group>"; };
+		64DE6B132A7222D300BFFFC8 /* STToolsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STToolsManager.swift; sourceTree = "<group>"; };
+		ACF7349B2D03F0D026C5EB40 /* Pods_SwimmingTime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwimmingTime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +53,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EC4F552C0CCC2B3FCC6EBAD /* Pods_SwimmingTime.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3869877832B01ADE3FFCC866 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1630A14F719FAE96F005A48D /* Pods-SwimmingTime.debug.xcconfig */,
+				4ACBFA53B7C1A3424B6757F6 /* Pods-SwimmingTime.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		64DE6AE42A72178E00BFFFC8 = {
 			isa = PBXGroup;
 			children = (
 				64DE6AEF2A72178E00BFFFC8 /* SwimmingTime */,
 				64DE6AEE2A72178E00BFFFC8 /* Products */,
+				3869877832B01ADE3FFCC866 /* Pods */,
+				DD0517665D306160F3B52297 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +90,7 @@
 		64DE6AEF2A72178E00BFFFC8 /* SwimmingTime */ = {
 			isa = PBXGroup;
 			children = (
+				64DE6B052A721BC100BFFFC8 /* STCommon */,
 				64DE6B042A72185A00BFFFC8 /* SupporttingFiles */,
 			);
 			path = SwimmingTime;
@@ -66,13 +101,61 @@
 			children = (
 				64DE6AF02A72178E00BFFFC8 /* AppDelegate.swift */,
 				64DE6AF22A72178E00BFFFC8 /* SceneDelegate.swift */,
-				64DE6AF42A72178E00BFFFC8 /* ViewController.swift */,
+				64DE6B112A72225800BFFFC8 /* STCommon.swift */,
+				64DE6B132A7222D300BFFFC8 /* STToolsManager.swift */,
+				6438859F2A72BDCC00D4E759 /* STRecordManager.swift */,
 				64DE6AF62A72178E00BFFFC8 /* Main.storyboard */,
 				64DE6AF92A72178F00BFFFC8 /* Assets.xcassets */,
 				64DE6AFB2A72178F00BFFFC8 /* LaunchScreen.storyboard */,
 				64DE6AFE2A72178F00BFFFC8 /* Info.plist */,
 			);
 			path = SupporttingFiles;
+			sourceTree = "<group>";
+		};
+		64DE6B052A721BC100BFFFC8 /* STCommon */ = {
+			isa = PBXGroup;
+			children = (
+				64DE6B082A721F2C00BFFFC8 /* STBase */,
+				64DE6B072A721F0F00BFFFC8 /* STHome */,
+				64DE6B062A721EF400BFFFC8 /* STRecord */,
+			);
+			path = STCommon;
+			sourceTree = "<group>";
+		};
+		64DE6B062A721EF400BFFFC8 /* STRecord */ = {
+			isa = PBXGroup;
+			children = (
+				64DE6B0F2A7220F400BFFFC8 /* STRecordViewController.swift */,
+				643885A12A72CF1C00D4E759 /* STPrivacyViewController.swift */,
+			);
+			path = STRecord;
+			sourceTree = "<group>";
+		};
+		64DE6B072A721F0F00BFFFC8 /* STHome */ = {
+			isa = PBXGroup;
+			children = (
+				64DE6B0D2A7220BA00BFFFC8 /* STHomeViewController.swift */,
+				6438859D2A72BC6600D4E759 /* STRecordModel.swift */,
+			);
+			path = STHome;
+			sourceTree = "<group>";
+		};
+		64DE6B082A721F2C00BFFFC8 /* STBase */ = {
+			isa = PBXGroup;
+			children = (
+				64DE6B092A721F4F00BFFFC8 /* STBaseNavigationController.swift */,
+				64DE6B0B2A72205600BFFFC8 /* STBaseTabbarController.swift */,
+				6438859B2A72BC0700D4E759 /* STBaseModel.swift */,
+			);
+			path = STBase;
+			sourceTree = "<group>";
+		};
+		DD0517665D306160F3B52297 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACF7349B2D03F0D026C5EB40 /* Pods_SwimmingTime.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,9 +165,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 64DE6B012A72178F00BFFFC8 /* Build configuration list for PBXNativeTarget "SwimmingTime" */;
 			buildPhases = (
+				124222E2E439A566B3180467 /* [CP] Check Pods Manifest.lock */,
 				64DE6AE92A72178E00BFFFC8 /* Sources */,
 				64DE6AEA2A72178E00BFFFC8 /* Frameworks */,
 				64DE6AEB2A72178E00BFFFC8 /* Resources */,
+				7FCF919480D0AE851A87D861 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -141,14 +226,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		124222E2E439A566B3180467 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwimmingTime-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FCF919480D0AE851A87D861 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwimmingTime/Pods-SwimmingTime-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwimmingTime/Pods-SwimmingTime-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwimmingTime/Pods-SwimmingTime-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		64DE6AE92A72178E00BFFFC8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64DE6AF52A72178E00BFFFC8 /* ViewController.swift in Sources */,
+				643885A22A72CF1C00D4E759 /* STPrivacyViewController.swift in Sources */,
 				64DE6AF12A72178E00BFFFC8 /* AppDelegate.swift in Sources */,
+				643885A02A72BDCC00D4E759 /* STRecordManager.swift in Sources */,
+				64DE6B0E2A7220BA00BFFFC8 /* STHomeViewController.swift in Sources */,
+				64DE6B142A7222D300BFFFC8 /* STToolsManager.swift in Sources */,
+				6438859C2A72BC0700D4E759 /* STBaseModel.swift in Sources */,
+				64DE6B0C2A72205600BFFFC8 /* STBaseTabbarController.swift in Sources */,
 				64DE6AF32A72178E00BFFFC8 /* SceneDelegate.swift in Sources */,
+				64DE6B102A7220F400BFFFC8 /* STRecordViewController.swift in Sources */,
+				64DE6B0A2A721F4F00BFFFC8 /* STBaseNavigationController.swift in Sources */,
+				64DE6B122A72225800BFFFC8 /* STCommon.swift in Sources */,
+				6438859E2A72BC6600D4E759 /* STRecordModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +426,7 @@
 		};
 		64DE6B022A72178F00BFFFC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1630A14F719FAE96F005A48D /* Pods-SwimmingTime.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,15 +438,19 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.gmx.SwimmingTime;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmx.rSwimmingTime;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -318,6 +459,7 @@
 		};
 		64DE6B032A72178F00BFFFC8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ACBFA53B7C1A3424B6757F6 /* Pods-SwimmingTime.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -329,15 +471,19 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.gmx.SwimmingTime;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmx.rSwimmingTime;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

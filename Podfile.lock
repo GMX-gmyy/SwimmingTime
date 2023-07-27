@@ -1,0 +1,24 @@
+PODS:
+  - IQKeyboardManagerSwift (6.5.11)
+  - ObjectMapper (4.2.0)
+  - SnapKit (4.2.0)
+
+DEPENDENCIES:
+  - IQKeyboardManagerSwift
+  - ObjectMapper
+  - SnapKit
+
+SPEC REPOS:
+  trunk:
+    - IQKeyboardManagerSwift
+    - ObjectMapper
+    - SnapKit
+
+SPEC CHECKSUMS:
+  IQKeyboardManagerSwift: c7955c0bdbf7b2eb29bb7daaa44e3d90f55a9a85
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+
+PODFILE CHECKSUM: 680dca40a16d916f246886bd6b0a3921673b7485
+
+COCOAPODS: 1.12.1
